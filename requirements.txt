@@ -1,0 +1,6 @@
+beautifulsoup4
+requests
+pandas
+sqlalchemy
+# dnf install community-mysql-devel
+mysqlclient
