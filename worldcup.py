@@ -101,6 +101,7 @@ for item in worldcup_years_table:
         if index > 0:
             worldcup_year = int(link['title'][0:4])
             if worldcup_year < 2022:
+                print(f"Fetching data from: { base_url + link['href'] }")
                 worldcup_info_list.append(get_infobox(base_url + link['href']))
 
 # print(len(worldcup_info_list))
